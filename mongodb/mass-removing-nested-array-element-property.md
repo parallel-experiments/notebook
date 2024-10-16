@@ -1,6 +1,6 @@
 # Mass removing a property from an object that's an element in an array property
 
-Nothing this case because finding a solution or docs on it is not easy and the functionality is not discoverable. I myself forgot about it and had to re-find it a couple of times.
+Noting this case because finding a solution or docs on it is not easy and the functionality is not discoverable. I myself forgot about it and had to re-find it a couple of times.
 
 Scenario is when a document has a `.things` property that's an array of objects, and one of the properties (e.g. `.things[].stuff` has to be mass removed.
 Unsetting the nested property by doing an `updateOne(lookup, {$unset: {"things.stuff": 1}})` or `$unset: {"things.$.stuff": 1}` does not work.
